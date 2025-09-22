@@ -11,9 +11,9 @@ dotenv.config();
 
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send("vasu")
-})
+// app.get('/', (req, res) => {
+//     res.send("vasu")
+// })
 
 app.use(express.json());
 
