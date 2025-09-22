@@ -33,5 +33,5 @@ if ( process.env.NODE_ENV === "production" ) {
 
 app.listen(PORT, () =>{
     connectDB()
-    console.log(`server started at ${"http://localhost:5000"}`)
+    console.log(`server started at http://localhost:${PORT}`)
 }) 
